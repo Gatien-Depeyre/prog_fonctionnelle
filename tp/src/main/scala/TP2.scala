@@ -11,7 +11,7 @@ object TP2Ex1:
   def valueInTable(t: Table, s: String): Int = t(s)
 
   /* Définissez la table vide (qui associe zéro à chaque mot) */
-  def emptyTable: Table = ???
+  def emptyTable: Table = 0;
 
   /* Définissez une fonction pour créer une nouvelle table, qui associe la valeur n à la chaîne s, et qui est similaire
    * à t pour toutes les autres chaînes. */
